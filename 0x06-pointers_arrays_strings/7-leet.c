@@ -2,8 +2,8 @@
 /**
  * leet - uppercase func
  * @str: str type variable
- * Description: function used to change uppercase
- * Return: success
+ * Description: function used to perform leet op.
+ * Return: return p
  */
 char *leet(char *str)
 {
