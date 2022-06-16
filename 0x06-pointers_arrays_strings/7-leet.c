@@ -9,6 +9,7 @@ char *leet(char *str)
 {
 	char *ll = "aeotl";
 	char *ul = "AEOTL";
+
 	char r[] = {'4', '3', '0', '7', '1'};
 	int i;
 
