@@ -7,22 +7,22 @@
  */
 char *leet(char *str)
 {
-	char *ll = "aeotl";
-	char *ul = "AEOTL";
+	char *ll = "aeotlAEOTL";
 
-	char r[] = {'4', '3', '0', '7', '1'};
+	char r[] = {'4', '3', '0', '7', '1', '4', '3', '0', '7', '1'};
 	int i;
 
 	char *p = str;
 
 	while (*str != '\0')
 	{
-		for (i = 0; i < 5; i++)
+		for (i = 0; i < 10; i++)
 		{
-			if (*str == *(ll + i) || *str == *(ul + 1))
+			if (*str == *(ll + i))
+
 				*str = r[i];
 		}
-		str++;
+			str++;
 	}
 	return (p);
 }
