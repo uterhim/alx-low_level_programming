@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - function
+ * _memcpy - function
  * @dest: string variable
  * @src: character variable
  * @n: integer variable for size
