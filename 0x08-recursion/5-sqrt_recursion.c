@@ -23,7 +23,7 @@ int _sqrt_recursion(int n)
  * compute_sqrt - function to calculate sqrt
  * @x: variabli
  * @y: variablj
- * Return - return square root result
+ * Return: return square root result
  */
 int compute_sqrt(int x, int y)
 {
