@@ -1,0 +1,1 @@
+About dynamic memory allocxation.
